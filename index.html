@@ -62,33 +62,29 @@
         <nav id="navbar" class="nav-menu navbar">
           <ul>
             <li>
-              <a href="#Theme1" class="nav-link scrollto active"
-                ><i class="bx bx-book-content"></i> <span>Theme1</span></a
+              <a href="#Variables" class="nav-link scrollto active"
+                ><i class="bx bx-book-content"></i> <span>Variables</span></a
               >
             </li>
             <li>
-              <a href="#Theme2" class="nav-link scrollto"
-                ><i class="bx bx-book-content"></i> <span>Theme2</span></a
+              <a href="#User Input" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i> <span>User Input</span></a
               >
             </li>
             <li>
-              <a href="#Theme3" class="nav-link scrollto"
-                ><i class="bx bx-book-content"></i> <span>Theme3</span></a
+              <a href="#Conditional Statement" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i>
+                <span>Conditional Statement</span></a
               >
             </li>
             <li>
-              <a href="#Theme4" class="nav-link scrollto"
-                ><i class="bx bx-book-content"></i> <span>Theme4</span></a
+              <a href="#Loops" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i> <span>Loops</span></a
               >
             </li>
             <li>
-              <a href="#Theme5" class="nav-link scrollto"
-                ><i class="bx bx-book-content"></i> <span>Theme5</span></a
-              >
-            </li>
-            <li>
-              <a href="#Theme6" class="nav-link scrollto"
-                ><i class="bx bx-book-content"></i> <span>Theme6</span></a
+              <a href="#Arrays" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i> <span>Arrays</span></a
               >
             </li>
           </ul>
@@ -98,176 +94,293 @@
     </header>
     <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
+    <!-- ======= Learning JAVA ======= -->
     <section
       id="hero"
       class="d-flex flex-column justify-content-center align-items-center"
     >
       <div class="hero-container" data-aos="fade-in">
         <!-- <h1>Learning JAVA</h1> -->
+        <p>
+          I
+          <span
+            class="typed"
+            data-typed-items="learn Java, like Java, code of"
+          ></span>
+        </p>
       </div>
     </section>
-    <!-- End Hero -->
+    <!-- Learning JAVA -->
 
     <main id="Theme1">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+      <!-- ======= Variables ======= -->
+
+      <section id="Variables" class="about">
         <div class="container">
           <div class="section-title">
-            <h2>Thema</h2>
+            <h2>Variables</h2>
+
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              In Java, variables are used to store data values. They must be
+              declared with a specific data type (such as `int`, `double`,
+              `String`, etc.) and can be assigned values using the assignment
+              operator (`=`). Variables can hold various types of data and can
+              be changed during the execution of the program using appropriate
+              statements. Example Exercise: Declare a variable called `age` of
+              type `int` and assign it a value representing a person's age.
+              Then, print the value of `age` to the console.
             </p>
+
+            <div>
+              <pre> <code> int age = 25; 
+ 
+              System.out.println("Age: " + age); 
+ 
+            </code> 
+ 
+            </pre>
+            </div>
           </div>
         </div>
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Facts Section ======= -->
-      <section id="Theme2" class="facts">
+      <!-- ======= FUser Input ======= -->
+      <section id="User Input" class="facts  section-bg">
         <div class="container">
           <div class="section-title">
-            <h2>Thema</h2>
+            <h2>User Input</h2>
+
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              In Java, user input can be obtained using the `Scanner` class from
+              the `java.util` package. This class provides methods to read
+              different types of input (such as integers, doubles, and strings)
+              from the keyboard. By creating a `Scanner` object and using its
+              methods, you can capture user input during program execution.
+              Example Exercise: Write a program that prompts the user to enter
+              their name and age, then prints a personalized greeting message
+              along with their age.
             </p>
+
+            <div>
+              <pre> 
+ 
+                <code> import java.util.Scanner; 
+ 
+  
+ 
+              public class UserInputExample { 
+ 
+              public static void main(String[] args) { 
+ 
+              Scanner scanner = new Scanner(System.in); 
+ 
+  
+ 
+              System.out.print("Enter your name: "); 
+ 
+              String name = scanner.nextLine(); 
+ 
+  
+ 
+              System.out.print("Enter your age: "); 
+ 
+              int age = scanner.nextInt(); 
+ 
+  
+ 
+              System.out.println("Hello, " + name + "! You are " + age + " years old."); 
+ 
+              } 
+ 
+              } 
+ 
+            </code> 
+ 
+              </pre>
+            </div>
           </div>
         </div>
       </section>
       <!-- End Facts Section -->
 
-      <!-- ======= Skills Section ======= -->
-      <section id="Theme3" class="skills section-bg">
+      <!-- ======= Conditional Statement ======= -->
+      <section id="Conditional Statement" class="skills">
         <div class="container">
           <div class="section-title">
-            <h2>Skills</h2>
+            <h2>Conditional Statement</h2>
+
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              In Java, conditional statements such as `if`, `else if`, and
+              `else` allow you to execute different blocks of code based on
+              specified conditions. These statements evaluate boolean
+              expressions and execute corresponding blocks of code if the
+              condition is true. Example Exercise: Write a program that
+              determines whether a given number is positive, negative, or zero,
+              and prints an appropriate message.
             </p>
+
+            <div>
+              <pre> 
+ 
+                <code> import java.util.Scanner; 
+ 
+  
+ 
+              public class ConditionalStatementsExample { 
+ 
+              public static void main(String[] args) { 
+ 
+              Scanner scanner = new Scanner(System.in); 
+ 
+  
+ 
+              System.out.print("Enter a number: "); 
+ 
+              int number = scanner.nextInt(); 
+ 
+  
+ 
+              if (number > 0) { 
+ 
+              System.out.println("The number is positive."); 
+ 
+              } else if (number < 0) { 
+ 
+              System.out.println("The number is negative."); 
+ 
+              } else { 
+ 
+              System.out.println("The number is zero."); 
+ 
+              } 
+
+              } 
+
+              } 
+ 
+            </code> 
+ 
+            </pre>
+            </div>
           </div>
         </div>
       </section>
       <!-- End Skills Section -->
 
-      <!-- ======= Resume Section ======= -->
-      <section id="Theme4" class="resume">
+      <!-- ======= Loops ======= -->
+      <section id="Loops" class="resume section-bg">
         <div class="container">
           <div class="section-title">
-            <h2>Thema</h2>
+            <h2>Loops</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Loops are essential constructs in programming for repeating
+              specific tasks. In Java, there are different types of loops, but
+              I’ll focus on the for loop. The for loop allows you to execute a
+              code block a fixed number of times. Here’s the syntax for using a
+              for loo
             </p>
+            <div>
+              <pre>
+                <code>
+                  for (initialization; condition; update) {
+    // Code block to be repeated
+}
+
+                </code>
+              </pre>
+            </div>
+            <ul>
+              <li>
+                Initialization: You can initialize a variable that acts as a
+                counter for the loop.
+              </li>
+              <li>
+                Condition: The loop runs as long as this condition is true.
+              </li>
+              <li>
+                Update: Here, you can update the counter (e.g., increment or
+                decrement).
+              </li>
+              <li>
+                Let’s look at a simple example. Suppose you want to print
+                numbers from 0 to 4:
+              </li>
+            </ul>
+            <div>
+              <pre>
+                <code>
+                  public class ForLoopExample {
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+                </code>
+              </pre>
+            </div>
           </div>
         </div>
       </section>
       <!-- End Resume Section -->
 
-      <!-- ======= Portfolio Section ======= -->
-      <section id="Theme5" class="portfolio section-bg">
+
+
+
+      <section id="Arrays" class="resume">
         <div class="container">
           <div class="section-title">
-            <h2>Thema</h2>
+            <h2>Arrays</h2>
+
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Arrays are used to store multiple values in a single variable. Instead of declaring separate variables for each value, you can use an array to group them together.
+              Here are the basics of working with arrays in Java:
+          
+              Declaring an Array: To declare an array, define the variable type followed by square brackets. For example 1
+            </p>
+            <div>
+              <pre>
+                <code>
+                 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+                  System.out.println(cars[0]); // Outputs Volvo
+                </code>
+              </pre>
+            </div>
+            <p>Accessing Array Elements: You can access an array element by referring to its index number. Remember that array indexes start with 0. For instance: 2
+            </p>
+            <div>
+              <pre>
+                <code>
+                 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+                  System.out.println(cars[0]); // Outputs Volvo
+          
+                </code>
+              </pre>
+            </div>
+            <p>
+              Changing Array Elements: To modify the value of a specific element, refer to its index and assign a new value: 3
             </p>
           </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="Theme6" class="services">
-        <div class="container">
-          <div class="section-title">
-            <h2>Thema</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
+          <div>
+              <pre>
+                <code>
+                 cars[0] = "Opel";
+                  System.out.println(cars[0]); // Now outputs Opel instead of Volvo
+          
+                </code>
+              </pre>
           </div>
-        </div>
+
+
       </section>
-      <!-- End Services Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="Theme7" class="testimonials section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Thema</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="Theme8" class="contact">
-        <div class="container">
-          <div class="section-title">
-            <h2>Thema</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="Theme9">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>iPortfolio</span></strong>
-        </div>
-      </div>
-    </footer>
-    <!-- End  Footer -->
-
     <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
