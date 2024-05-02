@@ -317,6 +317,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+
 }
 
 .section-title h2 {
@@ -375,5 +376,12 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+
+@media (min-width: 1199px) {
+  .section-title {
+    margin-left: 300px;
   }
 }
