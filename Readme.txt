@@ -6,3 +6,5 @@ Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
 
 I added some interesting features ✨
+
+New text to test a Pull Request
